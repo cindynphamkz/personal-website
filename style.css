@@ -129,3 +129,43 @@ footer {
   margin-top: 40px;
   font-size: 1em;
 }
+
+/* Skills Page Styling */
+.skills-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section {
+  margin-bottom: 30px;
+}
+
+.skills-section h2 {
+  font-size: 1.8em;
+  color: #003366; /* Navy Blue */
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ffcc00; /* Gold Underline */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-section ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.skills-section ul li strong {
+  color: #003366; /* Navy Blue for emphasis */
+}
+
